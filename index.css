@@ -1,0 +1,204 @@
+/* Add CSS styling here */
+
+body {
+    padding-top: 0px;
+    margin: 0 auto;
+    width: 800px;
+    background-image: url("https://images.unsplash.com/photo-1482977036925-e8fcaa643657?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 800px 99%;
+}
+
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: black;
+    /*border: 1px solid green;*/
+    font-size: 60px;
+    font-family: "Permanent Marker";
+    border-bottom: dashed black;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    
+    
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-family: "Architects Daughter";
+
+}
+
+p {
+    color: purple;
+    font-weight: bold;
+    font-family: "Architects Daughter";
+
+}
+
+header nav {
+    display: flex;
+    /*border: 1px solid purple;*/
+    justify-content: center;
+    padding: 1em;
+    background-color: purple;
+    text-decoration: none;
+
+}
+
+header nav button:hover {
+    background-color: lightseagreen;
+    color:white;
+    transform: skew(-20deg)
+
+
+}
+
+header p {
+    display: flex;
+    margin: 0 auto;
+    width: 600px;
+    color: purple;
+    font-weight: bold;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+nav button {
+    width: 100px;
+    height: 50px;
+    border: 3px solid darkblue;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    margin: 5px;
+    font-family: "Architects Daughter";
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+.main img {
+    /*border: 5px solid orange;*/
+    width: 100%;
+    height: 400px;
+    margin-top: 30px;
+}
+
+.project-snapshot  {
+    /*border: 5px solid blue;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    width: 100%;
+    
+
+}
+
+
+
+
+
+.project-snapshot img  {
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    /*border: 10px solid pink;*/
+    width: 150px;
+    height: 400px;
+    
+
+}
+
+.project-snapshot p {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 5px;
+    align-items: center;
+
+}
+
+
+
+footer {
+    /*border: 5px solid black;*/
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    background-color: purple;
+    
+
+}
+
+
+footer button {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 150px;
+    align-items: center;
+    
+    
+
+}
+
+
+footer nav button:hover {
+    background-color: lightseagreen;;
+    color:white;
+    transform: skew(-20deg)
+
+
+}
+
+
+.project-container {
+    
+    display: flex;
+    align-content: space-around;
+    margin-top: 50px;
+    justify-content: center;
+    margin-bottom: 50px;
+    /*border: 10px solid red;*/
+
+
+
+}
+
+
+@media screen and (max-width: 400px)
+
+{
+  nav {
+    flex-direction: column;
+  }
+  
+  .project-container {
+    flex-direction: column;
+
+    
+  }
+
+  .prject-snapshot {
+    flex-direction: column;
+  }
+
+  img {
+
+    flex-direction: column:
+  }
