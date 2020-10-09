@@ -1,7 +1,7 @@
 /* Add CSS styling here */
 
 body {
-    padding-top: 5px;
+    padding-top: 0px;
     margin: 0 auto;
     width: 800px;
     background-image: url("https://images.unsplash.com/photo-1482977036925-e8fcaa643657?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80");
@@ -10,6 +10,8 @@ body {
     background-size: 800px 99%;
 }
 
+
+
 h1 {
     display: flex;
     justify-content: center;
@@ -17,19 +19,24 @@ h1 {
     /*border: 1px solid green;*/
     font-size: 50px;
     font-family: "Permanent Marker";
-    border-bottom: solid black;
+    border-bottom: dashed black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    
 }
 
 h2 {
     text-align: center;
     color: black;
-    font-size: 50px;
+    font-size: 40px;
     font-family: "Architects Daughter";
 
 }
 
 p {
-    color: red;
+    color: purple;
+    font-weight: bold;
     font-family: "Architects Daughter";
 
 }
@@ -39,13 +46,30 @@ header nav {
     /*border: 1px solid purple;*/
     justify-content: center;
     padding: 1em;
+    background-color: purple;
+
+}
+
+header nav button:hover {
+    background-color: lightseagreen;
+    color:white;
+    transform: skew(-20deg)
 
 
+}
+
+header p {
+    display: flex;
+    margin: 0 auto;
+    width: 600px;
+    color: purple;
+    font-weight: bold;
 }
 
 nav button {
     width: 100px;
     height: 50px;
+    border: 3px solid darkblue;
     border-radius: 20px;
     background-color: white;
     color: black;
@@ -53,6 +77,7 @@ nav button {
     font-family: "Architects Daughter";
     font-size: 20px;
     font-weight: bold;
+    align-items: center;
 
 }
 
@@ -70,13 +95,24 @@ nav button {
     justify-content: space-between;
     margin-top: 30px;
     border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    width: 100%;
     
 
 }
 
-.project-snapshot img {
+
+
+
+
+.project-snapshot img  {
+    display: flex;
     padding: 5px;
     margin: 5px;
+    /*border: 10px solid pink;*/
+    width: 150px;
+    height: 400px;
     
 
 }
@@ -86,8 +122,10 @@ nav button {
     flex-wrap: wrap;
     text-align: center;
     padding: 5px;
+    align-items: center;
 
 }
+
 
 
 footer {
@@ -95,14 +133,66 @@ footer {
     display: flex;
     justify-content: center;
     padding: 1em;
-    background-color: black;
+    background-color: purple;
     
 
 }
 
 
-footer nav {
+footer button {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 150px;
+    align-items: center;
+    
+    
 
 }
+
+
+footer nav button:hover {
+    background-color: lightseagreen;;
+    color:white;
+    transform: skew(-20deg)
+
+
+}
+
+
+.project-container {
+    
+    display: flex;
+    align-content: space-around;
+    margin-top: 50px;
+    justify-content: center;
+    margin-bottom: 50px;
+    /*border: 10px solid red;*/
+
+
+
+}
+
+
+@media screen and (max-width: 400px)
+
+{
+  nav {
+    flex-direction: column;
+  }
+  
+  .project-container {
+    flex-direction: column;
+
+    
+  }
+
+  .prject-snapshot {
+    flex-direction: column;
+  }
+
+  img {
+
+    flex-direction: column:
+  }
