@@ -188,9 +188,8 @@ footer nav button:hover {
 {
     .container {
         padding-top: 0px;
-        
         width: 80%;
-        background-image: none;
+        background-image: url("https://images.unsplash.com/photo-1482977036925-e8fcaa643657?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80");
         background-position: center;
         background-repeat: no-repeat;
         background-size: 100% 100%
@@ -211,14 +210,11 @@ footer nav button:hover {
         justify-content: space-around;
         flex-wrap: wrap;
         align-items: center;
-        border: 10px solid blue;
+        
  
     }
 
     .project-snapshot img  {
-        
-        
-        
         /*border: 10px solid pink;*/
         width: 40%;
         height: 20%;
@@ -228,47 +224,10 @@ footer nav button:hover {
 
     #section-p p {
         display: none;
-        flex-wrap: wrap;
-        color: pink;
 
     }
 
   )
 
 
-  @media all and (max-width: 500px)
-
-{
-    .container {
-        padding-top: 0px;
-        
-        width: 80%;
-        background-image: none;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: 100% 100%
-    }
-
-
-
-    nav {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
   
-  
-    .project-snapshot img{
-        display: flex;
-        flex-direction:
-        border: 10px solid blue;
-
-  
-
- 
-    }
-
-
-  
-
-  )
